@@ -34,17 +34,16 @@ Figure 1. The flowchart of multi-label lncRNA subcellular location prediction.
    python3 -m pip install -r requirements.txt
    ```
 
-if "AssertionError occured when run the model(inputs).
-    ....flash_attn_triton.py", line 781, in _flash_attn_forward
-    assert q.is_cuda and k.is_cuda and v.is_cuda" occurs, <br />1. Delete the previous environment.<br />2. Build the environment without install triton. <br />3. Perform "pip uninstall trito"
+  if "AssertionError occured when run the model(inputs).....flash_attn_triton.py", line 781, in _flash_attn_forward assert q.is_cuda and k.is_cuda and v.is_cuda" occurs: <br />1. Delete the previous environment.<br />2. Build the environment without install triton. <br />3. Perform "pip uninstall trito"
 
    ### 3.4 Predict
-   conda activate dna
+   ```conda activate dna
    python iLoc-lncRNA-BERT_predict.py example.fasta
+   ```
 
    ### 3.5 get result
-   prediction probabilities be found in result.txt
-   prediction probabilities can be found in test_output.csv
+   prediction probabilities be found in result.txt<br />
+   prediction probabilities can be found in test_output.csv<br />
 
 ## 5. Citation
    If you have any question regarding our paper or codes, please feel free to start an issue or email Zhaoyue Zhang (zyzhang@uestc.edu.cn).
