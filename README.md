@@ -15,8 +15,8 @@ Figure 1. The flowchart of multi-label lncRNA subcellular location prediction.
 ## 3. Use iLoc-lncRNA-BERT for lncRNA subcellular location prediction
    ### 3.1 Prepare your lncRNA sequences in .fasta format.<br />
    ### 3.2 Download<br />
-     1. requirements.txt for Environment Setting<br />
-     2. iLoc-lncRNA-BERT_predict.py, criterion.py, and iLoc-lncRNA-BERT.pt for Prediction<br />
+  1. requirements.txt for Environment Setting<br />
+  2. iLoc-lncRNA-BERT_predict.py, criterion.py, and iLoc-lncRNA-BERT.pt for Prediction<br />
    ### 3.3 Set Environment
    
    ```# create and activate virtual python environment
@@ -46,7 +46,7 @@ Figure 1. The flowchart of multi-label lncRNA subcellular location prediction.
    prediction probabilities can be found in test_output.csv<br />
 
 ## 5. Citation
-   If you have any question regarding our paper or codes, please feel free to start an issue or email Zhaoyue Zhang (zyzhang@uestc.edu.cn).
+   If you have any question regarding our paper or codes, please feel free to start an issue or email Zhaoyue Zhang (zyzhang@uestc.edu.cn).<br />
    If you use iLoc-lncRNA-BERT in your work, please kindly cite our paper: Zhao-Yue Zhang, Zheng Zhang, Xiucai Ye, Tetsuya Sakurai, Hao Lin. A BERT-based model for the prediction of lncRNA subcellular localization in _Homo sapiens_.
 
 ## Reference:
