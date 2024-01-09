@@ -16,7 +16,7 @@ Figure 1. The flowchart of multi-label lncRNA subcellular location prediction.
    ### 3.1 Prepare your lncRNA sequences in .fasta format.<br />
    ### 3.2 Download<br />
   1. requirements.txt for Environment Setting<br />
-  2. iLoc-lncRNA-BERT_predict.py, criterion.py, and iLoc-lncRNA-BERT.pt for Prediction<br />
+  2. iLoc-lncRNA-BERT_predict.py, criterion.py, and iLoc-lncRNA-BERT.pt() for Prediction<br />
    ### 3.3 Set Environment
    
    ```# create and activate virtual python environment
@@ -50,5 +50,5 @@ Figure 1. The flowchart of multi-label lncRNA subcellular location prediction.
    If you use iLoc-lncRNA-BERT in your work, please kindly cite our paper: Zhao-Yue Zhang, Zheng Zhang, Xiucai Ye, Tetsuya Sakurai, Hao Lin. A BERT-based model for the prediction of lncRNA subcellular localization in _Homo sapiens_.
 
 ## Reference:
-[1]	Z. Zhou, Y. Ji, W. Li, P. Dutta, H. Liu. DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genome.	arXiv:2306.15006
+[1]	Z. Zhou, Y. Ji, W. Li, P. Dutta, H. Liu. DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genome. arXiv:2306.15006<br />
 [2]	T. Kobayashi. Two-way Multi-Label Loss. Proc Cvpr Ieee 2023, 7476-7485.
